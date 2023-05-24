@@ -1,0 +1,141 @@
+/* Глобальные стили */
+body {
+    margin: 0;
+    background-color: #F1F1F1;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    /* min-height: 2.388px; */
+}
+.container {
+    margin: 0 10%;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+h1 {
+    font-family: Kanit;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120px;
+    letter-spacing: 0em;
+}
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+img {
+    width: 100%;
+}
+span {
+    opacity: 0.5;
+}
+/* Секция header */
+.header-nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+.header-title {
+    margin: 64px 0;
+}
+/* Секция main */
+.tag {
+    background: linear-gradient(0deg, rgba(8, 30, 52, 0.12), rgba(8, 30, 52, 0.12)), #FFFBFE;
+    border-radius: 100px;
+    padding: 6px 16px;
+    border: 0;
+    font-weight: 500;
+    margin-right: 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+
+}
+.text-header {
+    display: flex;
+}
+.avatar {
+    width: 24px;
+    margin-right: 4px;
+}
+.content-element {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 45px;
+    min-height: 310px;
+    max-height: 376px;
+}
+.element-text {
+    width: 66.33928%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.element-img {
+    width: 23.66071%;
+    display: flex;
+    align-items: center;
+}
+.text-main {
+    overflow: hidden;
+}
+.text-footer {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.footer-right {
+    display: flex;
+}
+.tags-img {
+    margin-left: 14px;
+}
+/* Секция footer */
+.footer-main {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 64px 0 24px 0;
+}
+.footer-description_text {
+    opacity: 0.5;
+}
+.footer-description-text-links {
+    text-decoration: underline;
+}
+.text-footer {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 550px) {
+    .element-img {
+        display: none;
+    }
+    .element-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 889px) {
+    .tags-img {
+        display: none;
+    }
+}
